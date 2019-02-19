@@ -1,19 +1,19 @@
 # Site setings
-name: 'Royce'
-description: 'Web Developer'
+name: 'Justin Lee'
+description: 'Graduate Researcher'
 meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Charles Lavoie. I'm a freelance web developer, author and speaker based in Montreal, Canada. It’s nice to meet you."
+  greetings: "Hi there! I'm a graduate student at University of Washington working interested in protein, zebrafish, and brain. Thank you for visiting!"
 favicon: 'assets/images/favicon.ico'
-baseurl: 
+baseurl:
 production_url: https://royce.netlify.com/
 disqus: 'justgoodthemes'
 mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id
-ga_analytics: 
+ga_analytics:
 
 # Contact form setings
 email: youremail@email.com
