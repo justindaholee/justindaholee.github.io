@@ -57,7 +57,7 @@ technicalSkills:
    - name: Teaching
      level: 100
 
-sideProjects:
+Publications:
   - name: jekyll-clean-dark
     description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
     link: https://github.com/streetturtle/jekyll-clean-dark
@@ -71,8 +71,16 @@ sideProjects:
     langs: AngularJS/HTML/CSS/Bootstrap
 
 education:
-  - name: Master Splinter Academy
-    degree: Mutant Red-Eared Slider
-    location: sewers of New York City
-    dates: 2007 – 2012
-    link: http://tmnt2012series.wikia.com/
+  - name: University of Washington
+    degree: PhD in Molecular Engineering
+    location: Seattle, WA
+    dates: 2018-current
+  - name: University of Washington
+    degree: MS in Applied Bioengineering
+    location: Seattle, WA
+    dates: 2016-2018
+#    link:
+  - name: University of Washington
+    degree: BS in Physiology
+    location: Seattle, WA
+    dates: 2010-2016
