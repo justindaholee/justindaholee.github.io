@@ -6,14 +6,14 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! I'm a graduate student at University of Washington working interested in protein, zebrafish, and brain. Thank you for visiting!"
+  greetings: "Hi there! I'm a graduate student at University of Washington interested in protein, zebrafish, and brain!"
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://royce.netlify.com/
 disqus: 'justgoodthemes'
 mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id
-ga_analytics:
+ga_analytics: UA-134850834-1
 
 # Contact form setings
 email: justindaholee@email.com
@@ -21,17 +21,17 @@ contact_page_description: "Horace theme comes with a contact form built-in. You 
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'justgoodthemes'
-facebook: 'username'
-github: 'justgoodthemes'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
-quora: 'username'
+twitter: 'justindaholee'
+facebook: 'daho1688@gmail.com'
+github: 'justindaholee'
+#codepen: 'username'
+#dribbble: 'username'
+medium: '@justindaholee'
+instagram: 'justindaholee'
+#pinterest: 'username'
+linkedin: 'daho1688@gmail.com'
+#producthunt: '@username'
+#quora: 'username'
 
 # Navigation
 navigation:
@@ -39,8 +39,12 @@ navigation:
     url: /
   - text: About
     url: /about
-  - text: Style Guide
-    url: /style-guide
+  - text: CV
+    url: /CV
+  - text: Research
+    url: /Research
+#  - text: Teaching
+#    url: /style-guide
   - text: Contact Me
     url: /contact
 
