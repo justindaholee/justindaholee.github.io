@@ -1,21 +1,21 @@
-url: http://streetturtle.github.io
-projectUrl: jekyl-cv-crafter
+url: http://justindaholee.github.io
+projectUrl: justindaholee
 
 # leave blank fields which you don't want to fill/be displayed
 person:
-  name: Michelangelo
-  depiction: headshot.png
-  profession: Teenage Mutant Ninja Turtle
-  location: sewers of New York City
-  citizenship: USA
-  email: mikey@tmnt.com
-  site: http://mikeystmnt.com
-  phone: +8-tmnt-mickey
-  github: /streetturtle
-  stackoverflow: /streetturtle
-  linkedin: /streetturtle
+  name: Justin Lee
+  depiction:
+  profession: Graduate Researcher
+  location: Seattle, WA
+  citizenship: USA, Korea
+  email: justindaholee@gmail.com
+  site: justindaholee.com
+  phone: 206-419-8197
+  github: /justindaholee
+  stackoverflow:
+  linkedin:
 
-career:
+Research:
  - position: Foot Clan Antagonist
    company: TMNT inc.
    location: New York, USA
