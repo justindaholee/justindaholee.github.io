@@ -24,14 +24,9 @@ thankyou_page_description: "Your message has been successfully sent. We will con
 twitter: 'justindaholee'
 facebook: 'daho1688@gmail.com'
 github: 'justindaholee'
-#codepen: 'username'
-#dribbble: 'username'
 medium: '@justindaholee'
 instagram: 'justindaholee'
-#pinterest: 'username'
 linkedin: 'daho1688@gmail.com'
-#producthunt: '@username'
-#quora: 'username'
 
 # Navigation
 navigation:
@@ -43,8 +38,6 @@ navigation:
     url: /CV
   - text: Research
     url: /Research
-#  - text: Teaching
-#    url: /style-guide
   - text: Contact Me
     url: /contact
 
