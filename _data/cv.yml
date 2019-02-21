@@ -16,8 +16,9 @@ person:
   linkedin:
 
 Experiences:
- - position: ANDRE BERDNT LAB
-   company: Graduate Student
+ - company: ANDRE BERDNT LAB
+   link: berndtlab.com
+   position: Graduate Student
    dates: April 2018 - current
    summary: Berndt lab is a molecular design lab which develops fluorescent biosensors for detecting biochemical signals in neuronal networks in real time. Our goal is to monitor the activity of neurotransmitter, neuromodulators, hormones, ions and intracellular signaling molecules in live tissue and behaving animals at high spatial and temporal resolution. We aim to use these tools to identify impaired network dynamics in animal models for neurological disorders which will close critical knowledge gaps in our understanding of diseases such as autism and epilepsy.
    Responsibilites:
