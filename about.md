@@ -4,12 +4,10 @@ title: About
 featured_image: /assets/images/pages/about.jpg
 ---
 
-Charles Lavoie is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in **Computer Science**, he worked for three small web shops where he honed his development skills and love for JavaScript.
-
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. **Net** magazine named him a person to watch in 2018.
+Justin received both his BS in **Physiology** and MS in **Applied Bioengineering** from the University of Washington. His previous work before joining Berndt lab was on nanotopography guided mechanical manipulation tools for muscle tissue engineering. For his Ph.D. study, he is interested in structure-guided protein design of genetically encoded GCaMP-type GPCR fluorescent indicators and utilize zebrafish model to uncover the complexity of excitatory/inhibitory balance in the pathological social behaviors. He loves new challenges and outsite of academia he co-founded of NanoSurface Biomedical Inc., one of the UW-Comotion Lab’s biotech start-ups. He also had two startup projects selected as [**finalists for Hollomon Innovation Challenge in 2017**](https://bioe.uw.edu/bioengineers-without-borders-anesthesia-team-receives-second-place-prize-at-2017-holloman-health-innovation-challenge/).
 
 >The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
 
-As a hobby, Daniel authors the most influential JavaScript blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+Besides science, Justin loves to write and sing songs about things he love.
 
 *Thank You for reading!*

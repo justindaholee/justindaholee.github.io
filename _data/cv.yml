@@ -5,7 +5,7 @@ projectUrl: justindaholee
 person:
   name: Justin Lee
   depiction: headshot.png
-  profession: Graduate Researcher
+  profession: 1st Year PhD Student
   location: Seattle, WA
   citizenship: USA, Korea
   email: justindaholee@gmail.com
@@ -16,8 +16,8 @@ person:
   linkedin:
 
 Experiences:
- - company: ANDRE BERDNT LAB
-   link: berndtlab.com
+ - company: Andre Berndt Lab
+   link: http://berndtlab.com
    position: Graduate Student
    dates: April 2018 - current
    summary: Berndt lab is a molecular design lab which develops fluorescent biosensors for detecting biochemical signals in neuronal networks in real time. Our goal is to monitor the activity of neurotransmitter, neuromodulators, hormones, ions and intracellular signaling molecules in live tissue and behaving animals at high spatial and temporal resolution. We aim to use these tools to identify impaired network dynamics in animal models for neurological disorders which will close critical knowledge gaps in our understanding of diseases such as autism and epilepsy.
@@ -26,14 +26,33 @@ Experiences:
     - Responsibilites: Development of high-throughput protein engineering pipeline.
     - Responsibilites: Optogenetic modeling and rescue of neuropathological brain states in zebrafish.
     - Responsibilites: Social behavior and neural circuits in zebrafish.
- - position: Shredder enemy
-   company: TMNT
-   location: New York, USA
-   dates: October 2012 – September 2014
-   summary: Impulsive, creative and very social, Michelangelo is the heart and soul of the Ninja Turtles. The runt of the litter, he may be the smallest of his mutant brothers, but that doesn't make him the weakest (just harder to catch). Enemies beware! Michelangelo is a master of the Kusarigama, nunchucks with a secret and sharp surprise!
-   accomplishments:
-    - accomplishment: Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
-    - accomplishment: He has the normal ability of a turtle to go into his shell.
+ - company: NanoSurface Biomedical Inc
+   link: http://nanosurfacebio.com
+   position: Cofounder
+   dates: March 2015 - March 2018
+   summary: NanoSurface Biomedical(NSB) provides products and services for drug development, disease modeling, and fundamental research into cell biology. NanoSurface culture products imitate the native extracellular matrix, and structure cultured cells into physiologically relevant tissue models. NSB was spin-off from technologies developed in Deok-Ho Kim's Lab.
+   Responsibilites:
+    - Responsibilites: NanoSurface Biomedical brings nanotopography to various in vitro system to re- capitulate micro cellular environment that enables more ”physiological” cell/tissue culture.
+    - Responsibilites: As a head of technology, successfully launched first product line ”ANFS”
+    - Responsibilites: Transition from management role to consulting role to focus on MS degree(2016)
+    - Responsibilites: Academic collaboration to develop stretchable chamber with Extracellular Matrix mimicking nanotexture (2018)
+ - company: Deok-Ho Kim Lab
+   link: https://openwetware.org/wiki/Kim
+   position: Research Scientist
+   dates: Jan 2012 - March 2018
+   summary: Kim Lab's research spans the disciplinary boundaries between nanotechnology, biomaterials, and mechanobiology with an emphasis on their applications to tissue engineering and regenerative medicine. Through the use of multi-scale (nano/micro/meso) fabrication and integration tools, Kim Lab focus on the development and application of bio-inspired materials/devices and functional tissue engineering models for elucidating regenerative biology, drug screening, disease modeling, and stem cell-based therapies.
+   Responsibilites:
+    - Responsibilites: Combinatorial maturation of iPSC derived skeletal muscle cell - nanotopography and mechanical stretching
+    - Responsibilites: iPSC myogenic differentiation
+    - Responsibilites: Tissue engineered human neuromuscular junctions for study of CMT II pathophysiology
+    - Responsibilites: Graphene-based multifunctional nanomaterials for cardiac tissue and stem cell Engineering
+    - Responsibilites: Biomimetically nano-textured micro electrode array device for drug-induced cardiotoxicity screening
+    - Responsibilites: Biocompatible transparent substrate for corneal epithelial cell migration enhancement
+    - Responsibilites: Mathematical modeling of transfer of intercellular cytoplasmic proteins
+    - Responsibilites: Thermoresponsive nanofabricated substratum for the engineering of three dimensional tissues with layer-by-layer architectural control
+    - Responsibilites: Synergistic effects of topography and rigidity difference on human umbilical smooth muscle cell
+    - Responsibilites: Multiscale device fabrication manager
+    - Responsibilites: Mentored undergraduate students and volunteers
 
 technicalSkills:
   list:
@@ -60,17 +79,31 @@ technicalSkills:
      level: 100
 
 Publications:
-  - name: jekyll-clean-dark
-    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
-    link: https://github.com/streetturtle/jekyll-clean-dark
-    type: github
-    langs: HTML/CSS/Bootstrap
-
-  - name: number-writing-trainer
-    description: Application which helps with learning foreign numerals. Was created to help with learning how to write french numbers as well as to practice AngularJS.
-    link: http://pavelmakhov.com/number-writing-trainer/#/
-    type: site
-    langs: AngularJS/HTML/CSS/Bootstrap
+  - name: Evaluation of the periodontal regenerative properties of patterned human periodontal ligament stem cell sheets
+    description: Joong-Hyun Kim, Seok-Yeong Ko, Justin Ho Lee, Deok-Ho Kim, and Jeong-Ho Yun
+    link: https://synapse.koreamed.org/DOIx.php?id=10.5051/jpis.2017.47.6.402
+    type:
+    langs: J Periodontal Implant Sci | 2018
+  - name: Micro- and nano-patterned conductive graphene–PEG hybrid scaffolds for cardiac tissue engineering
+    description: Alec ST Smith, Hyok Yoo, Hyunjung Yi, Eun Hyun Ahn, Justin H. Lee, Guozheng Shao, Ekaterina Nagornyak, Michael A. Laflamme, Charles E Murry and Deok-Ho Kim
+    link: https://pubs.rsc.org/en/content/articlelanding/2017/cc/c7cc01988b#!divAbstract
+    type:
+    langs: Chemical Communications | 2017
+  - name: Control of the interface between heterotypic cell populations reveals the mechanism of intercellular transfer of signaling proteins
+    description: Kshitiz, Junaid Afzal, Yasir Suhail, Eun Hyun Ahn, Ruchi Goyal, Maimon E. Hubbi, Qasim Hussaini, David D. Ellison, Jatinder Goyal, Benjamin Nacev, Deok-Ho Kim, Justin Ho Lee, Sam Frankel, Kevin Gray, Rashmi Bankoti, Andy J. Chien and  Andre Levchenko
+    link: https://pubs.rsc.org/en/Content/ArticleLanding/2015/IB/C4IB00209A#!divAbstract
+    type:
+    langs: Integrative Biology | 2015
+  - name: Combined Effects of Substrate Topography and Stiffness on Endothelial Cytokine and Chemokine Secretion
+    description: Joong-Hyun Kim, Seok-Yeong Ko, Justin Ho Lee, Deok-Ho Kim, and Jeong-Ho Yun
+    link: https://synapse.koreamed.org/DOIx.php?id=10.5051/jpis.2017.47.6.402
+    type:
+    langs: ACS Applied Materials and Interfaces | 2015
+  - name: Modeling Intercellular Transfer of Biomolecules Through Tunneling Nanotubes
+    description: Yasir Suhail, Kshitiz, Justin Lee, Mark Walker, Deok-Ho Kim, Matthew D. Brennan, Joel S. Bader, Andre Levchenko
+    link: https://link.springer.com/article/10.1007/s11538-013-9819-4
+    type:
+    langs: Bulletin of Mathematical Biology | 2013
 
 education:
   - name: University of Washington
@@ -81,7 +114,6 @@ education:
     degree: MS in Applied Bioengineering
     location: Seattle, WA
     dates: 2016-2018
-#    link:
   - name: University of Washington
     degree: BS in Physiology
     location: Seattle, WA
