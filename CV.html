@@ -108,11 +108,11 @@
 
     <div class="row  section section-border">
       <div class="col-xs-3">
-        <h2>Research</h2>
+        <h2>Experiences</h2>
               </div>
 
       <div class="col-xs-9">
-        {% for item in site.data.cv.Research %}
+        {% for item in site.data.cv.Experiences %}
          <div class="jd">
           <div class="row">
             <div class="col-xs-6">
@@ -131,12 +131,12 @@
           <div class="row">
             <div class="col-xs-12">
 
-           {% if item.accomplishments.size > 0 %}
-            <b>Selected accomplishments:</b>
+           {% if item.Responsibilites.size > 0 %}
+            <b>Selected Responsibilites:</b>
            {% endif %}
             <ul>
             {% for itemm in item.accomplishments %}
-              <li>{{itemm.accomplishment}}</li>
+              <li>{{itemm.Responsibilites}}</li>
             {% endfor %}
             </ul>
           </div>
