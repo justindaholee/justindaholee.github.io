@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Entr
+title: Outsite of Academia
 featured_image: /assets/images/pages/array.jpg
 ---
 
