@@ -9,7 +9,7 @@ author:
   greetings: "Hi there! I'm a graduate student at University of Washington interested in protein, zebrafish, and brain!"
 favicon: 'assets/images/favicon.ico'
 baseurl:
-production_url: 
+production_url:
 disqus:
 mailchimp_url:
 # Add your GA Tracking Id
@@ -38,6 +38,8 @@ navigation:
     url: /CV
   - text: Research
     url: /Research
+  - text: Entr
+    url: /Entr
   - text: Contact Me
     url: /contact
 
