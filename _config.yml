@@ -36,10 +36,10 @@ navigation:
     url: /about
   - text: CV
     url: /CV
-  - text: Research
-    url: /Research
-  - text: Outsite of Academia
-    url: /Outsite of Academia
+#  - text: Research
+#    url: /Research
+#  - text: Outsite of Academia
+#    url: /Outsite of Academia
   - text: Contact Me
     url: /contact
 
