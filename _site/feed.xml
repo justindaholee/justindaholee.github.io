@@ -5,44 +5,19 @@
     <description>Graduate Researcher</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <pubDate>Wed, 17 Apr 2019 23:43:58 -0700</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 23:43:58 -0700</lastBuildDate>
-=======
-    <pubDate>Sat, 23 Feb 2019 13:44:44 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 13:44:44 -0800</lastBuildDate>
->>>>>>> parent of f80d873... 1
-=======
-    <pubDate>Sat, 23 Feb 2019 13:44:44 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 13:44:44 -0800</lastBuildDate>
->>>>>>> parent of f80d873... 1
-=======
-    <pubDate>Sat, 23 Feb 2019 13:44:44 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 13:44:44 -0800</lastBuildDate>
->>>>>>> parent of f80d873... 1
+    <pubDate>Wed, 17 Apr 2019 23:49:00 -0700</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 23:49:00 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>New insight on consciousness after &quot;Death&quot;</title>
-        <description>&lt;p&gt;No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp;amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.&lt;/p&gt;
-
-&lt;p&gt;Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h2&gt;
-
-&lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
-
-&lt;p&gt;You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.&lt;/p&gt;
-
-&lt;p&gt;Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.&lt;/p&gt;
+        <title>Accelerating protein engineering for for next generation genetically encoded indicators</title>
+        <description>
 </description>
-        <pubDate>Wed, 17 Apr 2019 00:00:00 -0700</pubDate>
-        <link>/Brain-after-death</link>
-        <guid isPermaLink="true">/Brain-after-death</guid>
+        <pubDate>Mon, 18 Feb 2019 00:00:00 -0800</pubDate>
+        <link>/Accelerating-protein-engineering-for-next-generation-genetically-encoded-indicators</link>
+        <guid isPermaLink="true">/Accelerating-protein-engineering-for-next-generation-genetically-encoded-indicators</guid>
         
-        <category>Neuroscience</category>
+        <category>Protein Engineering</category>
         
         
       </item>
