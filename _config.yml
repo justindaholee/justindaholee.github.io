@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! I'm a graduate student at University of Washington interested in protein, zebrafish, and brain!"
+  greetings: "I'm a graduate student at University of Washington interested in visualizaing biological events!"
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url:
