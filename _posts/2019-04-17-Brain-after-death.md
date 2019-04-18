@@ -2,7 +2,7 @@
 layout: post
 title:  "New insight on consciousness after \"Death\""
 tags: [ Neuroscience ]
-featured_image_thumbnail:
+featured_image_thumbnail: assets/images/posts/2018/11.jpg
 featured_image: assets/images/posts/2018/11.jpg
 ---
 
