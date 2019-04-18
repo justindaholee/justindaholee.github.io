@@ -13,4 +13,5 @@ For most of human history, death was very simple,” says Christof Koch, preside
 
 Koch wants a broader ethical discussion to take place before any researcher tries to induce awareness in a disembodied brain. “It is a big, big step,” he says. “And once we do it, it’s impossible to reverse it.”
 
-https://www.nature.com/articles/s41586-019-1099-1
+[Check out "
+Restoration of brain circulation and cellular functions hours post-mortem"](https://www.nature.com/articles/s41586-019-1099-1)
