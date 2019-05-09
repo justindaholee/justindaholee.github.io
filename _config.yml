@@ -1,66 +1,18 @@
-# Site setings
-name: 'Justin Lee'
-description: 'Graduate Researcher'
-meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
-logo:
-# Author image is used in site sidebar and greetings in the home page hero text
-author:
-  image: 'authorimage.jpg'
-  greetings: "I'm a graduate student at University of Washington interested in visualizaing biological events!"
-favicon: 'assets/images/favicon.ico'
-baseurl:
-production_url:
-disqus:
-mailchimp_url:
-# Add your GA Tracking Id
-ga_analytics: UA-134850834-1
-
-# Contact form setings
+# Site settings
+title: Justin Lee
+name: Justin Lee
+korean_name: 이다호
 email: justindaholee@gmail.com
-contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
-thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
+occupation: PhD Student
+employer: University of Washington
+# office:
+department: Molecular Engineering
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Justin Lee, UW MolES PhD student
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://justindaholee.github.io" # the base hostname & protocol for your site
+twitter_username: justindaholee
+github_username:  justindaholee
 
-# Social links
-twitter: 'justindaholee'
-facebook: 'daho1688@gmail.com'
-github: 'justindaholee'
-medium: '@justindaholee'
-instagram: 'justindaholee'
-linkedin: 'daho1688@gmail.com'
-
-# Navigation
-navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about
-  - text: CV
-    url: /CV
-#  - text: Research
-#    url: /Research
-#  - text: Outsite of Academia
-#    url: /Outsite of Academia
-  - text: Contact Me
-    url: /contact
-
-# Required Plugins
-plugins_dir:
-  - jekyll-paginate
-  - jekyll-tagsgenerator
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Pagination
-paginate: 5
-paginate_path: /page:num/
-
-# Permalinks
-permalink: /:title
-
-# Other
+# Build settings
 markdown: kramdown
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
