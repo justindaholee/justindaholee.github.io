@@ -4,10 +4,10 @@
     <title>Justin Lee</title>
     <description>Personal website of Justin Lee, UW MolES PhD student
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 May 2019 03:52:43 -0700</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 03:52:43 -0700</lastBuildDate>
+    <link>http://justindaholee.github.io/</link>
+    <atom:link href="http://justindaholee.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 May 2019 15:46:55 -0700</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 15:46:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -19,8 +19,8 @@ Conference: ICLR 2015&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 10 Jan 2016 08:28:00 -0800</pubDate>
-        <link>http://localhost:4000/review/paper/2016/01/10/Embedding-entities-and-relations.html</link>
-        <guid isPermaLink="true">http://localhost:4000/review/paper/2016/01/10/Embedding-entities-and-relations.html</guid>
+        <link>http://justindaholee.github.io/review/paper/2016/01/10/Embedding-entities-and-relations.html</link>
+        <guid isPermaLink="true">http://justindaholee.github.io/review/paper/2016/01/10/Embedding-entities-and-relations.html</guid>
         
         
         <category>review</category>
@@ -47,8 +47,8 @@ Conference: ICLR 2015&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 20 Aug 2015 04:20:03 -0700</pubDate>
-        <link>http://localhost:4000/jekyll/update/2015/08/20/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/08/20/welcome-to-jekyll.html</guid>
+        <link>http://justindaholee.github.io/jekyll/update/2015/08/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://justindaholee.github.io/jekyll/update/2015/08/20/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
