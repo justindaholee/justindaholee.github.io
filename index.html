@@ -177,30 +177,30 @@
       body.resume-mode header::after { left:24px; }
       body.resume-mode main { padding:24px; }
     }
-    @page { size:Letter; margin:0.55in 0.62in 0.62in; }
+    @page { size:Letter; margin:0.64in 0.72in 0.72in; }
     @media print {
       :root { --ink:#111; --muted:#4d5552; --line:#c9cfcc; --accent:#126b5c; --accent-dark:#124f45; --wash:#fff; }
       html { scroll-behavior:auto; }
-      body { background:#fff; color:#111; font-size:9.25pt; line-height:1.38; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+      body { background:#fff; color:#111; font-size:8.85pt; line-height:1.34; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
       .toolbar, nav, .note { display:none !important; }
       .sheet { width:100%; margin:0; box-shadow:none; }
       header { grid-template-columns:minmax(0,1fr) 2.35in; gap:0.28in; padding:0 0 0.22in; color:var(--ink); background:none; border:0; border-bottom:1.5px solid var(--accent); }
       header::after { display:none; }
       .eyebrow { margin:0 0 0.07in; padding:0; color:var(--accent-dark); background:none; font-size:7.5pt; }
-      h1 { font-size:21pt; line-height:1.05; letter-spacing:-.03em; }
-      .tagline { max-width:5in; margin-top:0.09in; color:var(--muted); font-size:9.5pt; line-height:1.4; }
-      .contact { align-self:end; gap:2.5pt; padding:0; border:0; background:none; color:var(--muted); font-size:7.6pt; line-height:1.25; }
+      h1 { font-size:19.5pt; line-height:1.05; letter-spacing:-.03em; }
+      .tagline { max-width:5in; margin-top:0.09in; color:var(--muted); font-size:9pt; line-height:1.36; }
+      .contact { align-self:end; gap:2.5pt; padding:0; border:0; background:none; color:var(--muted); font-size:7.35pt; line-height:1.22; }
       .contact a { color:var(--muted); font-weight:500; }
       .social-links { gap:2pt 7pt; padding-top:3pt; border-top:0.5px solid var(--line); }
       .social-links > strong { width:auto; }
       .brand-icon { width:9px; height:9px; }
       main { display:block; padding:0.22in 0 0; }
       section { margin:0 0 0.20in; }
-      h2 { margin:0 0 0.10in; padding:0 0 0.035in; color:var(--accent-dark); border-bottom:0.6px solid var(--line); font-size:12pt; break-after:avoid-page; }
+      h2 { margin:0 0 0.10in; padding:0 0 0.035in; color:var(--accent-dark); border-bottom:0.6px solid var(--line); font-size:11.3pt; break-after:avoid-page; }
       h2::after { display:none; }
-      h3 { font-size:9.3pt; }
+      h3 { font-size:8.9pt; }
       p { margin-top:2pt; }
-      .lead { font-size:9.7pt; line-height:1.48; }
+      .lead { font-size:9.25pt; line-height:1.42; }
       .item { grid-template-columns:1fr 0.92in; gap:0.15in; margin-bottom:0.10in; break-inside:avoid-page; }
       .item > :first-child { grid-column:1; grid-row:1; }
       .item .meta { grid-column:2; grid-row:1; font-size:8pt; text-align:right; }
@@ -211,7 +211,7 @@
       .pub-meta, .dissertation-entry { font-size:7.8pt; line-height:1.3; }
       .pill-list { gap:4pt; }
       .pill { padding:2pt 5pt; background:#fff; font-size:7.5pt; }
-      a { color:inherit; text-decoration:none; }
+      a[href] { color:var(--accent-dark); text-decoration:underline; text-decoration-thickness:0.35pt; text-underline-offset:1.4pt; }
       section, .pubs, ul, ol { orphans:3; widows:3; }
       body.resume-mode { font-size:8.1pt; line-height:1.25; }
       body.resume-mode .sheet,
@@ -830,7 +830,7 @@
       requestAnimationFrame(() => setTimeout(() => {
         try {
           window.print();
-          printStatus.textContent = 'Choose “Save as PDF” and turn off “Headers and footers”. If the dialog did not open, press ⌘P / Ctrl+P.';
+          printStatus.textContent = 'Choose “Save as PDF” and turn off “Headers and footers”. Use Chrome/Edge if you need clickable links preserved.';
         } catch (error) {
           printStatus.textContent = 'Press ⌘P / Ctrl+P, then choose “Save as PDF”.';
         } finally {
