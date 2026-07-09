@@ -210,9 +210,21 @@
       .pub-meta, .dissertation-entry { font-size:7.8pt; line-height:1.3; }
       .pill-list { gap:4pt; }
       .pill { padding:2pt 5pt; background:#fff; font-size:7.5pt; }
-      a[href] { color:inherit; text-decoration:none; }
-      .contact a { color:var(--muted); }
-      .resource-link, .pub-title, .scholar-link { color:inherit; text-decoration:none; }
+      a,
+      a:link,
+      a:visited,
+      a[href] { text-decoration:none !important; -webkit-text-decoration:none !important; }
+      a[href] { color:inherit !important; }
+      .contact a,
+      .contact a[href],
+      .resource-link,
+      .resource-link[href],
+      .scholar-link,
+      .scholar-link[href] { color:var(--accent-dark) !important; text-decoration:none !important; }
+      .pub-title,
+      .pub-title[href] { color:var(--ink) !important; font-weight:700 !important; text-decoration:none !important; }
+      .resource-icon,
+      .brand-icon { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
       section, .pubs, ul, ol { orphans:3; widows:3; }
       body.resume-mode { font-size:8.1pt; line-height:1.25; }
       body.resume-mode .sheet,
