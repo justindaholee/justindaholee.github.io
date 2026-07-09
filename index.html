@@ -225,7 +225,8 @@
       .pub-title { font-size:8.8pt; line-height:1.28; }
       .pub-meta, .dissertation-entry { font-size:7.8pt; line-height:1.3; }
       .scholar-link { margin:0 0 0.07in; padding:1.2pt 5pt; border-width:0.5pt; border-radius:6pt; background:#fff; font-size:7.6pt; line-height:1.05; }
-      .pub-feature { margin-top:2pt; padding:0.8pt 4.6pt; border-width:0.5pt; border-radius:6pt; background:#fff; font-size:6.55pt; line-height:1.05; }
+      .pub-feature,
+      .pub-feature[href] { margin-top:2pt; padding:0.8pt 4.6pt; border:0.5pt solid #b9cfc8 !important; border-radius:6pt; background:#eef5f2 !important; color:var(--accent-dark) !important; font-size:6.55pt; line-height:1.05; font-weight:700 !important; text-decoration:none !important; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
       .pub-feature::before { font-size:5.8pt; }
       .pill-list { gap:4pt; }
       .pill { padding:2pt 5pt; background:#fff; font-size:7.5pt; }
@@ -293,7 +294,8 @@
       body.resume-mode .pubs { padding-left:0.14in; }
       body.resume-mode .pubs li { margin-bottom:0.035in; }
       body.resume-mode .scholar-link { margin-bottom:0.035in; padding:0.8pt 4pt; font-size:6.65pt; }
-      body.resume-mode .pub-feature { margin-top:1.4pt; padding:0.6pt 3.8pt; font-size:6.05pt; }
+      body.resume-mode .pub-feature,
+      body.resume-mode .pub-feature[href] { margin-top:1.4pt; padding:0.6pt 3.8pt; font-size:6.05pt; }
       body.resume-mode .pub-feature::before { font-size:5.4pt; }
       body.resume-mode #resources .item { margin-bottom:0.03in; }
       body.resume-mode #resources .resource-icon { width:7pt; height:7pt; flex-basis:7pt; }
