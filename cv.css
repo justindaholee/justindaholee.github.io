@@ -274,26 +274,34 @@ body.resume-mode .resume-document { display:block; padding:40px 48px; }
   .resume-document .resume-appointment-details { margin-left:0; }
 }
 @media print {
-  body.resume-mode .resume-document { padding:0; font:10.5pt/1.3 var(--display); }
-  body.resume-mode .resume-document .resume-header { margin-bottom:12pt; }
+  @page resume { size:Letter; margin:0.45in 0.55in; }
+  body.resume-mode .sheet { page:resume; }
+  body.resume-mode .resume-document { display:grid; grid-template-columns:1fr 1fr; column-gap:20pt; padding:0; font:10pt/1.22 var(--display); }
+  body.resume-mode .resume-document > * { grid-column:1 / -1; min-width:0; }
+  body.resume-mode .resume-document > section:nth-of-type(3) { grid-column:1; grid-row:4; }
+  body.resume-mode .resume-document > section:nth-of-type(5) { grid-column:2; grid-row:4; }
+  body.resume-mode .resume-document > section:nth-of-type(4) { grid-row:5; }
+  body.resume-mode .resume-document .resume-header { margin-bottom:8pt; }
   body.resume-mode .resume-document h1 { font:600 23pt/1.1 var(--display); margin:0 0 5pt; }
-  body.resume-mode .resume-document .resume-label { font-size:8pt; margin:0 0 5pt; }
-  body.resume-mode .resume-document p,body.resume-mode .resume-document li { font-size:10pt; line-height:1.3; }
-  body.resume-mode .resume-document .resume-intro { margin-top:8pt; }
-  body.resume-mode .resume-document section { margin:0 0 10pt; }
-  body.resume-mode .resume-document h2 { font:700 11pt/1.2 var(--display) !important; margin:0 0 6pt; padding-bottom:3pt; }
+  body.resume-mode .resume-document .resume-label { display:none; }
+  body.resume-mode .resume-document p,body.resume-mode .resume-document li { font-size:10pt; line-height:1.22; }
+  body.resume-mode .resume-document .resume-intro { margin-top:5pt; }
+  body.resume-mode .resume-document section { margin:0 0 7pt; }
+  body.resume-mode .resume-document h2 { font:700 11pt/1.2 var(--display) !important; margin:0 0 5pt; padding-bottom:3pt; }
   body.resume-mode .resume-document h3 { font:600 10pt/1.3 var(--display) !important; }
-  body.resume-mode .resume-document .resume-role { grid-template-columns:23pt minmax(0,1fr) auto; gap:7pt; margin-bottom:6pt; }
+  body.resume-mode .resume-document .resume-role { grid-template-columns:23pt minmax(0,1fr) auto; gap:7pt; margin-bottom:3pt; }
   .resume-role img { width:23pt; height:23pt; }
   .resume-role > span,.resume-entry h3 span,.resume-degree > span { font-size:9pt; }
   .resume-entry { margin-bottom:7pt; }
   body.resume-mode .resume-document ul { padding-left:13pt; margin-top:3pt; }
   body.resume-mode .resume-document li { margin:2pt 0; }
-  body.resume-mode .resume-document .resume-appointment-details { margin:3pt 0 8pt 30pt; }
+  body.resume-mode .resume-document .resume-appointment-details { margin:2pt 0 5pt 30pt; }
   body.resume-mode .resume-document .resume-research-highlight { margin-bottom:6pt; }
   body.resume-mode .resume-contact { font-size:9pt; gap:4pt 9pt; }
   body.resume-mode .resume-profile-links a { width:15pt; height:15pt; }
   body.resume-mode .resume-profile-links svg { width:11pt; height:11pt; }
   .resume-entry,.resume-role { break-inside:avoid; }
-  body.resume-mode .resume-document .resume-citations li { font-size:9pt; line-height:1.25; margin-bottom:5pt; break-inside:avoid; }
+  body.resume-mode .resume-document .resume-citations li { font-size:10pt; line-height:1.22; margin-bottom:5pt; break-inside:avoid; }
+  body.resume-mode .resume-degree { gap:7pt; margin-top:5pt; }
+  body.resume-mode .resume-document section:last-child { margin-bottom:0; }
 }
