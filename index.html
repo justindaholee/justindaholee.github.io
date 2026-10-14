@@ -589,15 +589,26 @@
     fullCvButton.addEventListener('click', () => setView(false));
 
     const sectionLinks = [...document.querySelectorAll('nav a[href^="#"]')];
+    const navigationToolbar = document.querySelector('.toolbar');
+    function syncSectionOffset() {
+      const offset = Math.ceil(navigationToolbar.getBoundingClientRect().height) + 24;
+      document.documentElement.style.setProperty('--section-offset', `${offset}px`);
+      return offset;
+    }
+    syncSectionOffset();
     function updateCurrentSection() {
-      const offset = document.querySelector('.toolbar').getBoundingClientRect().bottom + 32;
+      const offset = syncSectionOffset();
       const visible = sectionLinks.map(link => ({link, section:document.getElementById(link.hash.slice(1))}))
         .filter(item => item.section?.getClientRects().length);
       let current = visible[0];
       for (const item of visible) {
-        if (item.section.getBoundingClientRect().top <= offset) current = item;
+        if (item.section.getBoundingClientRect().top <= offset + 2) current = item;
       }
-      if (window.scrollY > 0 && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) current = visible.at(-1);
+      const aligned = visible.find(item => Math.abs(item.section.getBoundingClientRect().top - offset) <= 2);
+      if (aligned) current = aligned;
+      else if (window.scrollY > 0 && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+        current = visible.at(-1);
+      }
       sectionLinks.forEach(link => {
         if (link === current?.link) link.setAttribute('aria-current','location');
         else link.removeAttribute('aria-current');
@@ -611,6 +622,8 @@
     window.addEventListener('scroll', scheduleSectionUpdate, {passive:true});
     window.addEventListener('resize', scheduleSectionUpdate);
     window.addEventListener('load', scheduleSectionUpdate);
+    window.addEventListener('hashchange', scheduleSectionUpdate);
+    new ResizeObserver(scheduleSectionUpdate).observe(navigationToolbar);
     printButton.addEventListener('click', () => {
       printButton.disabled = true;
       printButton.textContent = 'Opening print dialog…';
